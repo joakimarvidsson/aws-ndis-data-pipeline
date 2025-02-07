@@ -1,6 +1,6 @@
 # AWS NDIS Data Pipeline
 
-This repository showcases an end-to-end data engineering project using AWS, Spark, Databricks, and Tableau to process and analyze open data related to the National Disability Insurance Scheme (NDIS). The project demonstrates:
+This repository showcases a very simple end-to-end data engineering project using AWS, Spark, Databricks, and Tableau to process and analyze open data related to the National Disability Insurance Scheme (NDIS). The project demonstrates:
 
 1. **Infrastructure as Code** (Terraform or manual AWS setup) to create Amazon S3 buckets for raw and processed data.  
 2. **Batch ETL** scripts in Python to ingest, clean, and transform NDIS-related CSVs from data.gov.au into a unified dataset.  
