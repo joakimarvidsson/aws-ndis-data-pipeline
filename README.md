@@ -29,7 +29,7 @@ Spark ML + Dashboard
 (Predictive Model)
 
 
-1. Data is downloaded from public NDIS data sources on data.gov.au.  
+1. Data is downloaded from public NDIS data sources on dataresearch.ndis.gov.au.  
 2. Batch ETL Python scripts ingest data into a raw S3 bucket.  
 3. Transformation jobs (Python or Spark) clean & unify data in a processed S3 bucket.  
 4. Optionally, a predictive model is built with Spark ML, and dashboards are generated in Databricks or Tableau.
@@ -42,8 +42,7 @@ Spark ML + Dashboard
 2. **Terraform** (optional) for automated infrastructure. Alternatively, you can manually create the S3 buckets.  
 3. **Python 3.8+**  
 4. **PySpark** (if running transformations locally) or a **Databricks** workspace.  
-5. **Tableau** (optional) if you want to build dashboards externally.  
-6. **Git** to clone and push this repository.
+5. **Tableau** (optional) for building dashboards externally.  
 
 ---
 
