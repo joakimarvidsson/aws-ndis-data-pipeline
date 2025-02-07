@@ -41,8 +41,8 @@ Spark ML + Dashboard
 1. **AWS Account** with permission to create S3 buckets and IAM roles/policies.  
 2. **Terraform** (optional) for automated infrastructure. Alternatively, you can manually create the S3 buckets.  
 3. **Python 3.8+**  
-4. **PySpark** (if running transformations locally) or a **Databricks** workspace.  
-5. **Tableau** (optional) for building dashboards externally.  
+4. **PySpark** (if running transformations locally) or a **Databricks** workspace (optional).  
+5. **Tableau** or **PowerBI** (optional) for building dashboards externally.  
 
 ---
 
