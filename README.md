@@ -12,10 +12,10 @@ This repository showcases a very simple end-to-end data engineering project usin
 ## Architecture Overview
 
 ```text
-             +---------------+
-             |   data.gov.au  |
-             | (NDIS Datasets)|
-             +-------+-------+
+             +-----------------------------+
+             |   dataresearch.ndis.gov.au  |
+             |        (NDIS Datasets)      |
+             +-------+---------------------+
                      |
                      v (CSV)
 +-------------------+   +--------------+   +---------------------+   +---------------------+
