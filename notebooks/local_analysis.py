@@ -9,8 +9,6 @@ def main():
              .getOrCreate())
     
     # 2. Read Parquet from S3
-    #    EXACT path - we assume your bucket is called ndis-pipeline-processed-bucket
-    #    and you have "ndis/transformed_data/parquet/" prefix containing .parquet files
     input_path = "s3a://ndis-pipeline-processed-bucket/ndis/transformed_data/parquet/"
     print(f"Reading Parquet from {input_path} ...")
     
