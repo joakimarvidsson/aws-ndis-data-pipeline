@@ -50,7 +50,7 @@ Spark ML + Dashboard
 
 1. **Clone** this repository:
    ```bash
-   git clone https://github.com/<YourUsername>/aws-ndis-data-pipeline.git
+   git clone https://github.com/joakimarvidsson/aws-ndis-data-pipeline.git
    cd aws-ndis-data-pipeline
    ```
 
@@ -74,7 +74,7 @@ Spark ML + Dashboard
 cd src
 python batch_etl.py
 ```
-This script downloads CSV from [data.gov.au](https://dataresearch.ndis.gov.au/), uploads raw data to the raw data bucket, cleans/transforms with Pandas, then writes processed data to the processed bucket.
+This script downloads CSV from [dataresearch.ndis.gov.au](https://dataresearch.ndis.gov.au/), uploads raw data to the raw data bucket, cleans/transforms with Pandas, then writes processed data to the processed bucket.
 
 ## Spark & Predictive Modeling
 
